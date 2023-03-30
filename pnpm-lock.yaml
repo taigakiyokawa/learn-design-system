@@ -10,9 +10,14 @@ importers:
 
   packages/design-tokens:
     specifiers:
+      '@learn-design-system/tsconfig': workspace:1.0.0
       typescript: 5.0.2
     devDependencies:
+      '@learn-design-system/tsconfig': link:../tsconfig
       typescript: 5.0.2
+
+  packages/tsconfig:
+    specifiers: {}
 
 packages:
 
