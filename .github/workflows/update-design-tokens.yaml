@@ -1,6 +1,7 @@
 name: Update Design Tokens
 on:
   repository_dispatch:
+    types: [test]
 jobs:
   generate-tokens:
     runs-on: ubuntu-latest
