@@ -1,1 +1,1 @@
-# learn-sync-design-tokens-updates
+# learn-design-system
