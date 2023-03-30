@@ -78,6 +78,8 @@ jobs:
 
       - name: Create pull request
         if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: repo-sync/pull-request@v2
         with:
           source_branch: ${{ env.WORK_BRANCH }}
