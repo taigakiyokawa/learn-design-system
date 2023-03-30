@@ -1,12 +1,11 @@
 {
   "name": "learn-sync-design-tokens-updates",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "engines": {
+    "pnpm": "7.26.2",
+    "npm": "use pnpm"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
