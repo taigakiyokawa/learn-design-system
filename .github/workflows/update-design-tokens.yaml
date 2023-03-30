@@ -3,15 +3,17 @@ on:
   repository_dispatch:
     types: [test]
 
-env:
-  WORK_BRANCH: update-design-tokens
-
 jobs:
   generate-tokens:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Set branch name
+        env:
+          TZ: 'Asia/Tokyo'
+        run: echo "WORK_BRANCH=$('update-design-tokens' + '-' + date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
       - name: Create new branch
         env:
