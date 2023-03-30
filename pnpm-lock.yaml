@@ -12,8 +12,11 @@ importers:
     specifiers:
       '@learn-design-system/tsconfig': workspace:1.0.0
       '@types/node': 18.15.11
+      dotenv: 16.0.3
       style-dictionary: 3.7.2
       typescript: 5.0.2
+    dependencies:
+      dotenv: 16.0.3
     devDependencies:
       '@learn-design-system/tsconfig': link:../tsconfig
       '@types/node': 18.15.11
@@ -121,6 +124,11 @@ packages:
       no-case: 3.0.4
       tslib: 2.5.0
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /fs-extra/10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
