@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@learn-design-system/tsconfig": "workspace:1.0.0",
+    "@types/node": "18.15.11",
     "style-dictionary": "3.7.2",
     "typescript": "5.0.2"
   }

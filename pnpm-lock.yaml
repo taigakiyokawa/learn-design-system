@@ -11,10 +11,12 @@ importers:
   packages/design-tokens:
     specifiers:
       '@learn-design-system/tsconfig': workspace:1.0.0
+      '@types/node': 18.15.11
       style-dictionary: 3.7.2
       typescript: 5.0.2
     devDependencies:
       '@learn-design-system/tsconfig': link:../tsconfig
+      '@types/node': 18.15.11
       style-dictionary: 3.7.2
       typescript: 5.0.2
 
@@ -22,6 +24,10 @@ importers:
     specifiers: {}
 
 packages:
+
+  /@types/node/18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
+    dev: true
 
   /ansi-styles/4.3.0:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
