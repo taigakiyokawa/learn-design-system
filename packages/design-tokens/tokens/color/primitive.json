@@ -1,6 +1,7 @@
 {
   "color": {
     "black": { "value": "#000000" },
-    "white": { "value": "#FFFFFF" }
+    "gray": { "value": "#666666" },
+    "white": { "value": "#ffffff" }
   }
 }
