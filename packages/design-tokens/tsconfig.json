@@ -1,0 +1,3 @@
+{
+  "extends": "@learn-design-system/tsconfig/tsconfig.base"
+}

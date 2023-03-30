@@ -1,0 +1,12 @@
+{
+  "name": "@learn-design-system/design-tokens",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "@learn-design-system/tsconfig": "workspace:1.0.0",
+    "style-dictionary": "3.7.2",
+    "typescript": "5.0.2"
+  }
+}
