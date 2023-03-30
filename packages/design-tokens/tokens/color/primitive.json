@@ -2,6 +2,7 @@
   "color": {
     "black": { "value": "#000000" },
     "gray": { "value": "#666666" },
+    "red": { "value": "#ff0000" },
     "white": { "value": "#ffffff" }
   }
 }
