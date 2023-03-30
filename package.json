@@ -8,7 +8,8 @@
   "packageManager": "pnpm@7.26.2",
   "scripts": {
     "lint": "prettier --check ./",
-    "format": "prettier --write ./"
+    "format": "prettier --write ./",
+    "design-tokens": "pnpm -F \"@learn-design-system/design-tokens\""
   },
   "devDependencies": {
     "prettier": "2.8.7"
