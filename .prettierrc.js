@@ -9,7 +9,7 @@ module.exports = {
   singleQuote: true, // Change from default (false) because it's easier to type and read than double-quote.
   // quoteProps: "as-needed",
   // jsxSingleQuote: false,
-  trailingComma: "all", // To facilitate reordering object properties.
+  trailingComma: 'all', // To facilitate reordering object properties.
   // bracketSpacing: true,
   // bracketSameLine: false,
   // arrowParens: "always",
