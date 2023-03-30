@@ -1,7 +1,1 @@
-{
-  "color": {
-    "black": { "value": "#000000" },
-    "gray": { "value": "#666666" },
-    "white": { "value": "#ffffff" }
-  }
-}
+{ "color": { "black": { "value": "#000000" }, "gray": { "value": "#666666" }, "white": { "value": "#ffffff" } } }
