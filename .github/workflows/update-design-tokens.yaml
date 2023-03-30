@@ -13,7 +13,7 @@ jobs:
       - name: Set branch name
         env:
           TZ: 'Asia/Tokyo'
-        run: echo "WORK_BRANCH=$('update-design-tokens' + '-' + date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
+        run: echo "WORK_BRANCH=update-design-tokens-$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
 
       - name: Create new branch
         env:
