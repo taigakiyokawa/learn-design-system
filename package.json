@@ -5,6 +5,7 @@
     "pnpm": "7.26.2",
     "npm": "use pnpm"
   },
+  "packageManager": "pnpm@7.26.2",
   "scripts": {
     "lint": "prettier --check ./",
     "format": "prettier --write ./"
