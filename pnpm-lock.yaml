@@ -10,7 +10,7 @@ importers:
 
   packages/design-tokens:
     specifiers:
-      '@learn-design-system/tsconfig': workspace:1.0.0
+      '@monorepo-playground/tsconfig': workspace:1.0.0
       '@types/node': 18.15.11
       dotenv: 16.0.3
       style-dictionary: 3.7.2
@@ -19,7 +19,7 @@ importers:
     dependencies:
       dotenv: 16.0.3
     devDependencies:
-      '@learn-design-system/tsconfig': link:../tsconfig
+      '@monorepo-playground/tsconfig': link:../tsconfig
       '@types/node': 18.15.11
       style-dictionary: 3.7.2
       tsx: 3.12.6
