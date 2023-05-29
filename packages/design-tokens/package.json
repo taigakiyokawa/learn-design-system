@@ -1,11 +1,11 @@
 {
-  "name": "@learn-design-system/design-tokens",
+  "name": "@monorepo-playground/design-tokens",
   "version": "1.0.0",
   "scripts": {
     "build": "tsx ./src/main.ts && prettier --write ./tokens/ ; style-dictionary build"
   },
   "devDependencies": {
-    "@learn-design-system/tsconfig": "workspace:1.0.0",
+    "@monorepo-playground/tsconfig": "workspace:1.0.0",
     "@types/node": "18.15.11",
     "style-dictionary": "3.7.2",
     "tsx": "3.12.6",

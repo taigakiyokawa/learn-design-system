@@ -1,5 +1,5 @@
 {
-  "name": "learn-design-system",
+  "name": "monorepo-playground",
   "version": "1.0.0",
   "engines": {
     "pnpm": "7.26.2",
@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "prettier --check ./",
     "format": "prettier --write ./",
-    "design-tokens": "pnpm -F \"@learn-design-system/design-tokens\""
+    "design-tokens": "pnpm -F \"@monorepo-playground/design-tokens\""
   },
   "devDependencies": {
     "prettier": "2.8.7"
