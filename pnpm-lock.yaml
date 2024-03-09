@@ -27,6 +27,12 @@ importers:
         specifier: 5.4.2
         version: 5.4.2
 
+  packages/components:
+    devDependencies:
+      typescript:
+        specifier: 5.4.2
+        version: 5.4.2
+
   packages/design-tokens:
     dependencies:
       dotenv:
