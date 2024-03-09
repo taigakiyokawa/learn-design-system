@@ -8,7 +8,7 @@
     "@types/node": "18.15.11",
     "style-dictionary": "3.7.2",
     "tsx": "3.12.6",
-    "typescript": "5.0.2"
+    "typescript": "5.4.2"
   },
   "dependencies": {
     "dotenv": "16.0.3"
