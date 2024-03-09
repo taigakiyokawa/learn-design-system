@@ -33,9 +33,6 @@ importers:
         specifier: 16.0.3
         version: 16.0.3
     devDependencies:
-      '@monorepo-playground/tsconfig':
-        specifier: workspace:1.0.0
-        version: link:../tsconfig
       '@types/node':
         specifier: 18.15.11
         version: 18.15.11
@@ -48,8 +45,6 @@ importers:
       typescript:
         specifier: 5.0.2
         version: 5.0.2
-
-  packages/tsconfig: {}
 
 packages:
 

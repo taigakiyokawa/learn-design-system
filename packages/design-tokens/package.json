@@ -5,7 +5,6 @@
     "build": "tsx ./src/main.ts && prettier --write ./tokens/ ; style-dictionary build"
   },
   "devDependencies": {
-    "@monorepo-playground/tsconfig": "workspace:1.0.0",
     "@types/node": "18.15.11",
     "style-dictionary": "3.7.2",
     "tsx": "3.12.6",
