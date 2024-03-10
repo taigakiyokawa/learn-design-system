@@ -34,6 +34,9 @@ importers:
 
   packages/components:
     devDependencies:
+      '@monorepo-playground/tsconfig':
+        specifier: workspace:*
+        version: link:../../configs/tsconfig
       '@storybook/addon-essentials':
         specifier: 7.6.17
         version: 7.6.17(react-dom@18.2.0)(react@18.2.0)

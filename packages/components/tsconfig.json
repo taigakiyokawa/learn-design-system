@@ -1,0 +1,4 @@
+{
+  "extends": "@monorepo-playground/tsconfig/tsconfig.base.json",
+  "exclude": ["dist"]
+}
