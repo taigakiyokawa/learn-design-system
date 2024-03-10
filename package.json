@@ -11,7 +11,8 @@
     "format": "prettier --write ./",
     "tokens": "pnpm -C packages/design-tokens",
     "components": "pnpm -C packages/components",
-    "app:nextjs": "pnpm -C apps/nextjs"
+    "app:nextjs": "pnpm -C apps/nextjs",
+    "app:vite": "pnpm -C apps/vite-react"
   },
   "devDependencies": {
     "@monorepo-playground/tsconfig": "workspace:*",
