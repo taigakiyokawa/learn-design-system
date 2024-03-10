@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "prettier --check ./",
     "format": "prettier --write ./",
-    "design-tokens": "pnpm -F \"@monorepo-playground/design-tokens\""
+    "tokens": "pnpm -C packages/design-tokens",
+    "components": "pnpm -C packages/components"
   },
   "devDependencies": {
     "@monorepo-playground/tsconfig": "workspace:*",
