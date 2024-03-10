@@ -12,6 +12,7 @@
     "design-tokens": "pnpm -F \"@monorepo-playground/design-tokens\""
   },
   "devDependencies": {
+    "@monorepo-playground/tsconfig": "workspace:*",
     "@typescript-eslint/eslint-plugin": "7.1.1",
     "@typescript-eslint/parser": "7.1.1",
     "eslint": "8.57.0",

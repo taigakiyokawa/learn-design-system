@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@monorepo-playground/tsconfig':
+        specifier: workspace:*
+        version: link:configs/tsconfig
       '@typescript-eslint/eslint-plugin':
         specifier: 7.1.1
         version: 7.1.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.4.2)
@@ -26,6 +29,8 @@ importers:
       typescript:
         specifier: 5.4.2
         version: 5.4.2
+
+  configs/tsconfig: {}
 
   packages/components:
     devDependencies:
@@ -69,6 +74,9 @@ importers:
         specifier: 16.0.3
         version: 16.0.3
     devDependencies:
+      '@monorepo-playground/tsconfig':
+        specifier: workspace:*
+        version: link:../../configs/tsconfig
       '@types/node':
         specifier: 18.15.11
         version: 18.15.11
