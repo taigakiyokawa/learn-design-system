@@ -12,6 +12,7 @@
   "author": "Taiga Kiyokawa",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@monorepo-playground/design-tokens": "workspace:*",
     "@monorepo-playground/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "7.6.17",
     "@storybook/addon-interactions": "7.6.17",
@@ -28,6 +29,7 @@
     "typescript": "5.4.2"
   },
   "peerDependencies": {
+    "@monorepo-playground/design-tokens": "1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
