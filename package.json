@@ -10,7 +10,8 @@
     "lint": "prettier --check ./",
     "format": "prettier --write ./",
     "tokens": "pnpm -C packages/design-tokens",
-    "components": "pnpm -C packages/components"
+    "components": "pnpm -C packages/components",
+    "app:nextjs": "pnpm -C apps/nextjs"
   },
   "devDependencies": {
     "@monorepo-playground/tsconfig": "workspace:*",
