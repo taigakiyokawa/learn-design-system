@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo-playground/tsconfig",
+  "version": "1.0.0",
+  "author": "Taiga Kiyokawa",
+  "license": "UNLICENSED",
+  "private": true
+}
