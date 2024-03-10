@@ -2,8 +2,10 @@
   "name": "components",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
