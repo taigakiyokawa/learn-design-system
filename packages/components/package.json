@@ -10,6 +10,7 @@
   "author": "Taiga Kiyokawa",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@monorepo-playground/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "7.6.17",
     "@storybook/addon-interactions": "7.6.17",
     "@storybook/addon-links": "7.6.17",
@@ -17,6 +18,8 @@
     "@storybook/react": "7.6.17",
     "@storybook/react-vite": "7.6.17",
     "@storybook/test": "7.6.17",
+    "@types/react": "18.2.64",
+    "@types/react-dom": "18.2.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "7.6.17",
