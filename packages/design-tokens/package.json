@@ -2,7 +2,8 @@
   "name": "@monorepo-playground/design-tokens",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsx ./src/main.ts && prettier --write ./tokens/ ; style-dictionary build"
+    "generate": "tsx ./src/main.ts && prettier --write ./tokens/",
+    "build": "style-dictionary build"
   },
   "devDependencies": {
     "@monorepo-playground/tsconfig": "workspace:*",

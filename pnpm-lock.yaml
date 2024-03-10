@@ -102,6 +102,9 @@ importers:
 
   packages/components:
     devDependencies:
+      '@monorepo-playground/design-tokens':
+        specifier: workspace:*
+        version: link:../design-tokens
       '@monorepo-playground/tsconfig':
         specifier: workspace:*
         version: link:../../configs/tsconfig

@@ -1,0 +1,7 @@
+// TODO: Consider proper way to import tokens
+@import '@monorepo-playground/design-tokens/dist/tokens.css';
+
+.button {
+  background-color: var(--color-red);
+  color: white;
+}
